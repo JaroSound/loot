@@ -1,130 +1,266 @@
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Meat', 'Meat', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Gamey Meat', 'Gamey Meat', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('GameyMeat', 'Gamey Meat', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Mutton', 'Mutton', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Feather', 'Feather', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Crafting Feather', 'Crafting Feather', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CraftingFeather', 'Crafting Feather', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Fat', 'Animal Fat', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Frog Leg', 'Frog Leg', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('FrogLeg', 'Frog Leg', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poltery', 'Poltery', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Woodpecker Carcass', 'Woodpecker Carcass', 10, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Blue Jay Carcass', 'Blue Jay  Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Cardinal Carcass', 'Cardinal  Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Egret Carcass', 'Egret Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Carolina Parakeet Carcass', 'Carolina Parakeet Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Cedarwaxwing Carcass', 'Cedarwaxwing Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Chipmunk Carcass', 'Chipmunk Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Crab Meat', 'Crab Meat', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Carmarant Carcass', 'Carmarant  Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Crawfish Carcass', 'Crawfish', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Crow Carcass', 'Crow  Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Black Squirrel Carcass', 'Blacksquirrel Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Brown Rat Carcass', 'Brown Rat Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Songbird Carcass', 'Songbird Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('WoodpeckerCarcass', 'Woodpecker Carcass', 10, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BlueJayCarcass', 'Blue Jay  Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CardinalCarcass', 'Cardinal  Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('EgretCarcass', 'Egret Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CarolinaParakeetCarcass', 'Carolina Parakeet Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CedarwaxwingCarcass', 'Cedarwaxwing Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('ChipmunkCarcass', 'Chipmunk Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CrabMeat', 'Crab Meat', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CarmarantCarcass', 'Carmarant  Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CrawfishCarcass', 'Crawfish', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CrowCarcass', 'Crow  Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BlackSquirrelCarcass', 'Blacksquirrel Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BrownRatCarcass', 'Brown Rat Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SongbirdCarcass', 'Songbird Carcass', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Squirrel Carcass', 'Squirrel Carcass', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SquirrelCarcass', 'Squirrel Carcass', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Bear Hide', 'Poor Bear Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Bear Hide', 'Bear Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Bear Hide ', 'Perfect Bear Hide ', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBearHide', 'Poor Bear Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BearHide', 'Bear Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBearHide ', 'Perfect Bear Hide ', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Ram Hide', 'Poor Ram Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Ram Hide', 'Ram Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Ram Hide', 'Perfect Ram Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorRamHide', 'Poor Ram Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('RamHide', 'Ram Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectRam Hide', 'Perfect Ram Hide', 20, 1, 'item_standard', 1);
 
  
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Boar Hide', 'Poor Boar Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Boar Hide', 'Boar Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Boar Hide', 'Perfect Boar Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBoarHide', 'Poor Boar Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BoarHide', 'Boar Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBoarHide', 'Perfect Boar Hide', 20, 1, 'item_standard', 1);
 
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Buck Skin', 'Poor Buck Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Buck Skin', 'Buck Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Buck Skin', 'Perfect Buck Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBuckSkin', 'Poor Buck Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BuckSkin', 'Buck Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBuckSkin', 'Perfect Buck Skin', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Bison Hide', 'Poor Bison Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Bison Hide', 'Bison Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Bison Hide', 'Perfect Bison Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBisonHide', 'Poor Bison Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BisonHide', 'Bison Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBisonHide', 'Perfect Bison Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Bull Hide', 'Poor Bull Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Bull Hide', 'Bull Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Bull Hide', 'Perfect Bull Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBullHide', 'Poor Bull Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BullHide', 'Bull Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBullHide', 'Perfect Bull Hide', 20, 1, 'item_standard', 1);
  
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Deer Skin', 'Poor Deer Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Deer Skin', 'Deer Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Deer Skin', 'Perfect Deer Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorDeerSkin', 'Poor Deer Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('DeerSkin', 'Deer Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectDeerSkin', 'Perfect Deer Skin', 20, 1, 'item_standard', 1);
  
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Elk Hide', 'Poor Elk Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Elk Hide ', 'Elk Hide ', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Elk Hide ', 'Perfect Elk Hide ', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorElkHide', 'Poor Elk Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('ElkHide', 'Elk Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectElkHide', 'Perfect Elk Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Fox Hide', 'Poor Fox Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Fox Hide', 'Fox Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Fox Hide', 'Perfect Fox Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorFoxHide', 'Poor Fox Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('FoxHide', 'Fox Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectFoxHide', 'Perfect Fox Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Turtle Shell', 'Poor Turtle Shell', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Turtle Shell', 'Turtle Shell', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Turtle Shell', 'Perfect Turtle Shell', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorTurtleShell', 'Poor Turtle Shell', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('TurtleShell', 'Turtle Shell', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectTurtleShell', 'Perfect Turtle Shell', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Snake Skin', 'Poor Snake Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Snake Skin', 'Snake Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Snake Skin', 'Perfect Snake Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorSnakeSkin', 'Poor Snake Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SnakeSkin', 'Snake Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectSnakeSkin', 'Perfect Snake Skin', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Skunk Hide', 'Poor Skunk Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Skunk Hide', 'Skunk Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Skunk Hide', 'Perfect Skunk Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorSkunkHide', 'Poor Skunk Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SkunkHide', 'Skunk Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectSkunkHide', 'Perfect Skunk Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Sheep Skin', 'Poor Sheep Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Sheep Skin', 'Sheep Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Sheep Skin', 'Perfect Sheep Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorSheepSkin', 'Poor Sheep Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SheepSkin', 'Sheep Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectSheepSkin', 'Perfect Sheep Skin', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Pronghorn Doe Hide', 'Poor Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Pronghorn Doe Hide', 'Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Pronghorn Doe Hide', 'Perfect Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPronghornDoeHide', 'Poor Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PronghornDoeHide', 'Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPronghornDoeHide', 'Perfect Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Possum Hide ', 'Poor Possum Hide ', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Possum Hide', 'Possum Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Possum Hide', 'Perfect Possum Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPossumHide', 'Poor Possum Hide ', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PossumHide', 'Possum Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPossumHide', 'Perfect Possum Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Pig Skin', 'Poor Pig Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Pig Skin', 'Pig Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Pig Skin', 'Perfect Pig Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPigSkin', 'Poor Pig Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PigSkin', 'Pig Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPigSkin', 'Perfect Pig Skin', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Panther Hide', 'Poor Panther Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Panther Hide', 'Panther Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Panther Hide', 'Perfect Panther Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPantherHide', 'Poor Panther Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PantherHide', 'Panther Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPantherHide', 'Perfect Panther Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Cougar Hide', 'Poor Cougar Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Cougar Hide', 'Cougar Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Cougar Hide', 'Perfect Cougar Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorCougarHide', 'Poor Cougar Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CougarHide', 'Cougar Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectCougarHide', 'Perfect Cougar Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Cow Hide', 'Poor Cow Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Cow Hide', 'Cow Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Cow Hide', 'Perfect Cow Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorCowHide', 'Poor Cow Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CowHide', 'Cow Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectCowHide', 'Perfect Cow Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Coyote Hide', 'Poor Coyote Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Coyote Hide', 'Coyote Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Coyote Hide ', 'Perfect Coyote Hide ', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorCoyoteHide', 'Poor Coyote Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CoyoteHide', 'Coyote Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectCoyoteHide ', 'Perfect Coyote Hide ', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Lizard Skin', 'Poor Lizard Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Lizard Skin', 'Lizard Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Lizard Skin', 'Perfect Lizard Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorLizardSkin', 'Poor Lizard Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('LizardSkin', 'Lizard Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectLizardSkin', 'Perfect Lizard Skin', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Goat Hide ', 'Poor Goat Hide ', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Goat Hide ', 'Goat Hide ', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Goat Hide ', 'Perfect Goat Hide ', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorGoatHide ', 'Poor Goat Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('GoatHide ', 'Goat Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectGoatHide ', 'Perfect Goat Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Moose Skin', 'Poor Moose Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Moose Skin', 'Moose Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Moose Skin', 'Perfect Moose Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorMooseSkin', 'Poor Moose Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('MooseSkin', 'Moose Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectMooseSkin', 'Perfect Moose Skin', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Muskrat Hide', 'Poor Muskrat Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Muskrat Hide', 'Muskrat Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Muskrat Hide', 'Perfect Muskrat Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorMuskratHide', 'Poor Muskrat Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('MuskratHide', 'Muskrat Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectMuskrat Hide', 'Perfect Muskrat Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Alligator Hide', 'Poor Alligator Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Alligator Hide', 'Alligator Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Alligator Hide', 'Perfect Alligator Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorAlligatorHide', 'Poor Alligator Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('AlligatorHide', 'Alligator Hide', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectAlligatorHide', 'Perfect Alligator Hide', 20, 1, 'item_standard', 1);
 
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Beaver Skin', 'Poor Beaver Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Beaver Skin', 'Beaver Skin', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Beaver Skin', 'Perfect Beaver Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBeaverSkin', 'Poor Beaver Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BeaverSkin', 'Beaver Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBeaverSkin', 'Perfect Beaver Skin', 20, 1, 'item_standard', 1);
+
+
+
+
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Meat', 'Meat', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('GameyMeat', 'Gamey Meat', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Mutton', 'Mutton', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Feather', 'Feather', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CraftingFeather', 'Crafting Feather', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Fat', 'Animal Fat', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('FrogLeg', 'Frog Leg', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poltery', 'Poltery', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('WoodpeckerCarcass', 'Woodpecker Carcass', 10, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BlueJayCarcass', 'Blue Jay  Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CardinalCarcass', 'Cardinal  Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('EgretCarcass', 'Egret Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CarolinaParakeetCarcass', 'Carolina Parakeet Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CedarwaxwingCarcass', 'Cedarwaxwing Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('ChipmunkCarcass', 'Chipmunk Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CrabMeat', 'Crab Meat', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CarmarantCarcass', 'Carmarant  Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CrawfishCarcass', 'Crawfish', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CrowCarcass', 'Crow  Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BlackSquirrelCarcass', 'Blacksquirrel Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BrownRatCarcass', 'Brown Rat Carcass', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SongbirdCarcass', 'Songbird Carcass', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SquirrelCarcass', 'Squirrel Carcass', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBearHide', 'Poor Bear Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BearHide', 'Bear Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBearHide ', 'Perfect Bear Hide ', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorRamHide', 'Poor Ram Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('RamHide', 'Ram Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectRam Hide', 'Perfect Ram Hide', 20, 1, 'item_standard', 1);
+
+ 
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBoarHide', 'Poor Boar Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BoarHide', 'Boar Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBoarHide', 'Perfect Boar Hide', 20, 1, 'item_standard', 1);
+
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBuckSkin', 'Poor Buck Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BuckSkin', 'Buck Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBuckSkin', 'Perfect Buck Skin', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBisonHide', 'Poor Bison Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BisonHide', 'Bison Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBisonHide', 'Perfect Bison Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBullHide', 'Poor Bull Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BullHide', 'Bull Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBullHide', 'Perfect Bull Hide', 20, 1, 'item_standard', 1);
+ 
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorDeerSkin', 'Poor Deer Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('DeerSkin', 'Deer Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectDeerSkin', 'Perfect Deer Skin', 20, 1, 'item_standard', 1);
+ 
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorElkHide', 'Poor Elk Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('ElkHide', 'Elk Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectElkHide', 'Perfect Elk Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorFoxHide', 'Poor Fox Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('FoxHide', 'Fox Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectFoxHide', 'Perfect Fox Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorTurtleShell', 'Poor Turtle Shell', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('TurtleShell', 'Turtle Shell', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectTurtleShell', 'Perfect Turtle Shell', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorSnakeSkin', 'Poor Snake Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SnakeSkin', 'Snake Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectSnakeSkin', 'Perfect Snake Skin', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorSkunkHide', 'Poor Skunk Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SkunkHide', 'Skunk Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectSkunkHide', 'Perfect Skunk Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorSheepSkin', 'Poor Sheep Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SheepSkin', 'Sheep Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectSheepSkin', 'Perfect Sheep Skin', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPronghornDoeHide', 'Poor Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PronghornDoeHide', 'Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPronghornDoeHide', 'Perfect Pronghorn Doe Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPossumHide', 'Poor Possum Hide ', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PossumHide', 'Possum Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPossumHide', 'Perfect Possum Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPigSkin', 'Poor Pig Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PigSkin', 'Pig Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPigSkin', 'Perfect Pig Skin', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorPantherHide', 'Poor Panther Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PantherHide', 'Panther Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectPantherHide', 'Perfect Panther Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorCougarHide', 'Poor Cougar Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CougarHide', 'Cougar Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectCougarHide', 'Perfect Cougar Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorCowHide', 'Poor Cow Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CowHide', 'Cow Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectCowHide', 'Perfect Cow Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorCoyoteHide', 'Poor Coyote Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('CoyoteHide', 'Coyote Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectCoyoteHide ', 'Perfect Coyote Hide ', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorLizardSkin', 'Poor Lizard Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('LizardSkin', 'Lizard Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectLizardSkin', 'Perfect Lizard Skin', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorGoatHide ', 'Poor Goat Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('GoatHide ', 'Goat Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectGoatHide ', 'Perfect Goat Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorMooseSkin', 'Poor Moose Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('MooseSkin', 'Moose Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectMooseSkin', 'Perfect Moose Skin', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorMuskratHide', 'Poor Muskrat Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('MuskratHide', 'Muskrat Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectMuskrat Hide', 'Perfect Muskrat Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorAlligatorHide', 'Poor Alligator Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('AlligatorHide', 'Alligator Hide', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectAlligatorHide', 'Perfect Alligator Hide', 20, 1, 'item_standard', 1);
+
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PoorBeaverSkin', 'Poor Beaver Skin', 20, 1, 'item_standard', 1);
+UPDATE WHERE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('BeaverSkin', 'Beaver Skin', 20, 1, 'item_standard', 1);
+UPDATE `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('PerfectBeaverSkin', 'Perfect Beaver Skin', 20, 1, 'item_standard', 1);
+UPDATE `items` SET `item`=[value-1],`label`=[value-2],`limit`=[value-3],`can_remove`=[value-4],`type`=[value-5],`usable`=[value-6] WHERE 1

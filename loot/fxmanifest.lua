@@ -6,6 +6,7 @@ server_script {'server/server.lua',
 'config.lua'}
 
 client_script {'client/npcs.lua',
+--'client/holding.lua',
 'client/animal.lua',
 'client/critter.lua',
 'client/fowl.lua',
