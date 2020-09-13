@@ -1,7 +1,3 @@
---[[ this is Crypto's RedEM script Converted to VORP, 
-I've Added a more random item loot system.
-]]
-
 local looting, collected, active = false, false, false
 
 Citizen.CreateThread(function()
@@ -20,11 +16,13 @@ Citizen.CreateThread(function()
 		local entity = Citizen.InvokeNative(0xD806CD2A4F2C2996, PlayerPedId())
 		local model = GetEntityModel(entityHit)
 		local quality = Citizen.InvokeNative(0x31FEF6A20F00B963, entityHit) --need to check the qly for better looting
+		local ragdolled = IsPedRagdoll(entityHit)
+
 		if IsControlJustPressed(0,1101824977) and not IsPedInAnyVehicle(player, true) and not looting then
 			local shape = true
 			while shape do
 				Wait(0)
-				if type == 4 and dead then
+				if type == 4 then
 					local looted = Citizen.InvokeNative(0x8DE41E9902E85756, entityHit)
 					if not looted then
 						shape = false
